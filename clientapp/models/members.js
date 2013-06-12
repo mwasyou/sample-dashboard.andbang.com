@@ -1,3 +1,4 @@
+/*global app*/
 var Backbone = require('backbone'),
     Member = require('models/member');
 

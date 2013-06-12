@@ -36,7 +36,7 @@ var app = express();
 
 app.use(express.static(__dirname + '/public'));
 app.use(express.cookieParser());
-app.use(express.session({ secret: 'CHANGE THIS - YES, THAT MEANS YOU' }));
+app.use(express.session({ secret: 'neat-o bandit-o' }));
 app.use(andbangAuth.middleware({
     app: app,
     clientId: config.auth.clientId,

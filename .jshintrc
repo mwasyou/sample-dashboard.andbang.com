@@ -9,9 +9,7 @@
     "browser": true,
     "es5": true,
     "predef": [
-        "app",
         "$",
-        "FormBot",
         "socket",
         "confirm",
         "alert",

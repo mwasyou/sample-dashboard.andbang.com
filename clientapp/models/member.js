@@ -1,6 +1,7 @@
 /*
 This represents a Member on a team.
 */
+/*global app*/
 var Backbone = require('backbone'),
     _ = require('underscore');
 
@@ -17,7 +18,7 @@ module.exports = Backbone.Model.extend({
         this.on('change:activeTask', this.handleActiveTaskChange, this);
         // since we don't have a "change" event when the app first
         // loads we'll also manually call the update function once.
-        this.handleActiveTaskChange();     
+        this.handleActiveTaskChange();
     },
     // This simply looks up the active task attribute,
     // if it has one, goes and fetchs the task from the
@@ -25,7 +26,7 @@ module.exports = Backbone.Model.extend({
     handleActiveTaskChange: function (model, val) {
         var self = this,
             activeTaskId = this.get('activeTask') || '';
-        
+
         if (activeTaskId === '') {
             self.set('activeTaskTitle', '');
         } else {

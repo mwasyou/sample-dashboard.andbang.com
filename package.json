@@ -8,17 +8,17 @@
   },
   "description": "Mind-meldification for teams",
   "dependencies": {
-    "backbone": "",
-    "underscore": "",
-    "express": "",
-    "stitch": "",
-    "andbang-express-auth": "",
-    "precommit-hook": "",
-    "clientmodules": "",
-    "templatizer": "",
-    "andlog": "",
-    "getconfig": "",
-    "andbang": ""
+    "backbone": "1.0.0",
+    "underscore": "1.4.4",
+    "express": "3.2.6",
+    "stitch": "0.3.3",
+    "andbang-express-auth": "0.0.10",
+    "precommit-hook": "0.3.4",
+    "clientmodules": "0.0.6",
+    "templatizer": "0.0.12",
+    "andlog": "0.0.3",
+    "getconfig": "0.0.5",
+    "andbang": "0.1.16"
   },
   "clientmodules": [
     "andlog",

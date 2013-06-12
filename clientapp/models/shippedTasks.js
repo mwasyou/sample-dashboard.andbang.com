@@ -3,6 +3,7 @@ Shipped Tasks
 
 The collection that contains our shipped task objects
 */
+/*global app*/
 var Backbone = require('backbone'),
     _ = require('underscore'),
     Task = require('models/task');
@@ -34,7 +35,7 @@ module.exports = Backbone.Collection.extend({
                 // be 4:00am for the sake of what we actually consider to be part of
                 // the same workday.
                 if (shippedDate.isBetween(startOfToday, endOfToday)) {
-                    self.add(task);   
+                    self.add(task);
                 }
             });
         });

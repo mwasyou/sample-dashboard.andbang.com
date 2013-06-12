@@ -1,7 +1,7 @@
 {
   "auth": {
-    "clientId": "GET ONE AT developer.andbang.com",
-    "clientSecret": "GET ONE AT developer.andbang.com"
+    "clientId": "YOUR CLIENT ID, (get this by registering an app here: https://accounts.andbang.com/developer)",
+    "clientSecret": "YOUR CLIENT SECRET"
   },
   "port": 3003
 }

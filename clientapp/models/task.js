@@ -1,6 +1,7 @@
 /*
 Task model holds all data related to a single shipped task.
 */
+/*global app*/
 var Backbone = require('backbone');
 
 
