@@ -11,16 +11,12 @@ Also, be sure to checkout https://developer.andbang.com for all the details on h
 
 2. clone the repo:
 
-```
-git clone git@github.com:andyet/sample-dashboard.andbang.com.git
-```
+        git clone git@github.com:andyet/sample-dashboard.andbang.com.git
 
 3. cd into the directory and install dependencies
-
-```
-cd sample-dashboard.andbang.com
-npm install .
-```
+    
+        cd sample-dashboard.andbang.com
+        npm install .
 
 4. register a new application. 
 
@@ -30,15 +26,13 @@ npm install .
 
 5. From the resulting page enter the values from ID and secret into your `dev_config.json` file at the root of the project.
 
-5. Run the server
+6. Run the server
 
-```
-node server.js
-```
+        node server.js
 
-6. Open it in your browser at: http://localhost:3003
+7. Open it in your browser at: http://localhost:3003
 
-7. You should now see your team on the dashboard. If not... contact support: support@andbang.com and optionally yell (nicely) at [@HenrikJoreteg](http://twitter.com/henrikjoreteg) or [@andbang](http://twitter.com/andbang) on twitter. <3
+8. You should now see your team on the dashboard. If not... contact support: support@andbang.com and optionally yell (nicely) at [@HenrikJoreteg](http://twitter.com/henrikjoreteg) or [@andbang](http://twitter.com/andbang) on twitter. <3
 
 ## For a full description of how it's put together 
 
