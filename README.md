@@ -4,6 +4,7 @@ A sample application for building a dashboard for your team to see who's online,
 
 Also, be sure to checkout https://developer.andbang.com for all the details on how to get set up to talk to the And Bang API.
 
+
 ## How to run it
 
 1. Make sure you've got node 0.8+, git, and npm installed (npm comes with node these days)
@@ -32,4 +33,15 @@ Also, be sure to checkout https://developer.andbang.com for all the details on h
 6. Open it in your browser at: http://localhost:3003
 
 7. You should now see your team on the dashboard. If not... contact support: support@andbang.com and optionally yell (nicely) at [@HenrikJoreteg](http://twitter.com/henrikjoreteg) or [@andbang](http://twitter.com/andbang) on twitter. <3
+
+
+## Bugs
+
+Feel free to file them as issues on this repo. Or send pull requests or contact support. Thanks!
+
+
+## License
+
+MIT
+
 
