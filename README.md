@@ -10,13 +10,17 @@ Also, be sure to checkout https://developer.andbang.com for all the details on h
 1. Make sure you've got node 0.8+, git, and npm installed (npm comes with node these days)
 
 2. clone the repo:
-    
-    git clone git@github.com:andyet/sample-dashboard.andbang.com.git
+
+```
+git clone git@github.com:andyet/sample-dashboard.andbang.com.git
+```
 
 3. cd into the directory and install dependencies
 
-    cd sample-dashboard.andbang.com
-    npm install .
+```
+cd sample-dashboard.andbang.com
+npm install .
+```
 
 4. register a new application. 
 
@@ -28,11 +32,21 @@ Also, be sure to checkout https://developer.andbang.com for all the details on h
 
 5. Run the server
 
-    node server.js
+```
+node server.js
+```
 
 6. Open it in your browser at: http://localhost:3003
 
 7. You should now see your team on the dashboard. If not... contact support: support@andbang.com and optionally yell (nicely) at [@HenrikJoreteg](http://twitter.com/henrikjoreteg) or [@andbang](http://twitter.com/andbang) on twitter. <3
+
+## For a full description of how it's put together 
+
+Read the dot net article @HenrikJoreteg wrote on this: 
+
+[part 1](https://github.com/HenrikJoreteg/dot-net-article/blob/master/part1.md) - Introduction and setup
+
+[part 2](https://github.com/HenrikJoreteg/dot-net-article/blob/master/part2.md) - Building the client
 
 
 ## Bugs
