@@ -257,7 +257,7 @@ body {
   padding: 20px;
   margin: 0;
   background: #eee;
-  background: url("https://next.andbang.com/images/cloth.png");
+  background: url("/images/cloth.png");
   color: #555;
 }
 .userImage {
